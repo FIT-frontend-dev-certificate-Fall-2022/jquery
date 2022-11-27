@@ -5,8 +5,8 @@ const app = express();
 const port = 8080;
 
 
-app.use(express.static('public'))
-app.use('/css', express.static(__dirname + 'public/css/style.css'))
+app.use(express.static(__dirname + '/public/'));
+app.use('/css', express.static(__dirname + 'public/css/'))
 app.use('/js', express.static(__dirname + 'public/js'))
 app.use('/img', express.static(__dirname + 'public/img'))
 
@@ -16,6 +16,14 @@ app.get('/berkshireHathaway', (req, res) => {
 
 app.get('/fieldset', (req, res) => {
     res.sendFile(__dirname + '/views/fieldset.html')
+})
+
+app.get('/mypage/grid', (req, res) => {
+    res.sendFile(__dirname + '/views/mypageGrid.html')
+})
+
+app.get('/mypage/flex', (req, res) => {
+    res.sendFile(__dirname + '/views/mypageFlex.html')
 })
 
 app.get('/mypage', (req, res) => {

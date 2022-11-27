@@ -1,0 +1,64 @@
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    text-align: center;
+    margin: 0; 
+    padding: 0;
+}
+
+#navItem1{
+    flex: 2;
+}
+
+#navItem2{
+    flex: 2;
+}
+
+#navItem3{
+    flex: 2;
+}
+
+.main{
+    display:flex;
+    flex-direction: row;
+}
+
+.articles{
+    flex: 3;
+}
+
+.listArticleItem{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.articleHeading{
+    flex:2;
+    text-align:center;
+}
+
+.articlePicture{
+    flex: 4;
+    width: 100%;
+}
+
+.articleText{
+    flex: 1
+}
+
+.sidebar{
+    flex: 1;
+    background-color:aliceblue;
+}
+
+.footer{
+    background-color:lightslategray;
+    margin:0px;
+}
+
+.footerColor{
+    color:lightgrey
+}
