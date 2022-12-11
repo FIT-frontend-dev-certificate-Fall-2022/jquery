@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="/css/mypage.css" />
+        <style>
+          body{
+            background-color:#bbf2e0
+          }
+          a{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+          }
+          p{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+          }
+
+          #extraSpecialSpecificFont{
+            font-family:Arial, Helvetica, sans-serif;
+            color: grey
+          }
+
+          .bestClassEver{
+            font-family: cursive;
+            color:darkblue
+          }
+
+          /* 1st - inline; second- id; third: class; fourth: element */
+
+          img{
+            border-color: black;
+            border: 5px solid #555;
+            width: 500px;
+            padding: 10px;
+            margin: 10px;
+          }
+
+          h1{
+            color:red
+          }
+
+          #headingId{
+            color:beige
+          }
+
+          .headingClass{
+            color:blue
+          }
+
+        </style>
+
+        <title>My page!</title>
+      </head>
+      <body>
+        <!-- header!!! -->
+
+        <header>
+            <h1 style='text-align:center; padding:30px' class="headingClass" id="headingId">Header</h1>
+        </header>
+          <!-- navbar !!!! -->
+
+          <nav class="menu">
+            <ul>
+                <li><a style="margin-left: 20px" class='bestClassEver' href="#">Home</a></li>
+                <li><a style="margin-left: 40px" href="#">About</a></li>
+                <li><a style="margin-left: 60px" href="#">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <!-- main content!!!! -->
+        
+        <main>
+          <article>
+                <h2>Article heading</h2>
+                <p class="bestClassEver">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam
+                  lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam
+                  viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent
+                  et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt
+                  congue enim, ut porta lorem lacinia consectetur.
+                </p>
+                <p id="extraSpecialSpecificFont">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam
+                  lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam
+                  viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent
+                  et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt
+                  congue enim, ut porta lorem lacinia consectetur.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam
+                  lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam
+                  viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent
+                  et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt
+                  congue enim, ut porta lorem lacinia consectetur.
+                </p>
+            </article>
+              <img 
+              src="https://d3w216np43fnr4.cloudfront.net/1920x1080/8459/140319/1.jpg?version=1600888701" 
+              alt="Karen's surprise Image" 
+              />
+            <!-- aside!!!! -->
+            
+            <aside>
+                <h2>Cheaky little form</h2>
+                <ul>
+                  <li><a href="#">Good Times</a></li>
+                  <li><a href="#">Were Had</a></li>
+                  <li><a href="#">By All</a></li>
+                  <li><a href="#">After A While</a></li>
+                  <li><a href="#">I promise</a></li>
+                </ul>
+              </aside>
+        </main>
+
+
+        <script>
+          const el = document.querySelector(".bestClassEver")
+          el.
+          console.log(el)
+        </script>
+
+        <!-- footer!!! -->
+
+        <footer>
+            <p>©Copyright 2050 by nobody. All rights reversed.</p>
+        </footer>
+    </body>
+</html>
+
+
+
+
+
+

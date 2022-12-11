@@ -29,14 +29,16 @@
 .main{
     display:grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
 }
 
 .articles{
-    grid-column: 1/4;
+    grid-column: 1/ span 3;
 }
 
 .listArticleItem{
     display: grid;
+    gap: 5px;
     grid-template-rows: repeat(5, 1fr);
 }
 
