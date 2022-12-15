@@ -1,5 +1,5 @@
-# Javascript-part-1
-Hello! Time to get to some coding. You'll find the javascript example as mypageJavascript.html and mypageJavascript.js
+# jquery
+Hello! Time to get to some coding. You'll find the jquery example as mypageJQuery.html and jqueryFunctions.js in the js folder
 
 # Getting started
 Make sure you have node and npm installed :) 
