@@ -1,6 +1,5 @@
 import maineTowns from '/data/maineTowns.js';
 
-let currentIndex = 0;
 
 const goForwardButton = document.querySelector('#nextTown')
 const goBackwardsButton = document.querySelector('#lastTown')
@@ -9,6 +8,7 @@ const townName = document.querySelector('.articleHeading')
 const townImage = document.querySelector('.articlePicture')
 const townText = document.querySelector('.articleText')
 
+let currentIndex = 0;
 const indexForwardHelperFunction = () => {
 
     if (currentIndex + 1 > maineTowns.length - 1){
@@ -21,7 +21,6 @@ const indexForwardHelperFunction = () => {
 }
 
 const indexBackwardsHelperFunction = () => {
-    console.log('~~~', currentIndex)
     if (currentIndex - 1 < 0){
         currentIndex = maineTowns.length - 1;
         return currentIndex
@@ -33,10 +32,15 @@ const indexBackwardsHelperFunction = () => {
 
 // goForwardButton.addEventListener()
 
+const fonts = ["Serif", "Sans-serif", "Monospace", "Cursive", "Fantasy", "Times New Roman"]
+
 goForwardButton.addEventListener('click', () => {
     const index = indexForwardHelperFunction()
     const town = maineTowns[index]
+    const newFont = fonts[index]
+    console.log(townName)
     townName.innerHTML = town.townName
+    townName.style.fontFamily = newFont
     townImage.src = town.townImageHref
     townText.innerHTML = town.townDescription
 })

@@ -1,5 +1,5 @@
-# Basic HTML/CSS playground
-Hello! Time to get to some coding. This repo is there for you to play around with all sorts of 
+# Javascript-part-1
+Hello! Time to get to some coding. You'll find the javascript example as mypageJavascript.html and mypageJavascript.js
 
 # Getting started
 Make sure you have node and npm installed :) 

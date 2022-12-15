@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+      .topnav {
+        background-color: #31006b;
+        overflow: hidden;
+      }
+
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      .topnav a.active {
+        background-color: #00c1c0;
+        color: white;
+      }
+
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        font-family: Arial Narrow;
+        padding: 6px 10px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      /* .main {
+
+      } */
+      .mainContainer{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: 1fr;
+        gap: 20px
+      }
+
+      p {
+        font-family: Georgia;
+      }
+
+      label {
+        font-family: Verdana;
+        font-size: 13px;
+        font-weight: bold;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      thead {
+        color: white;
+        background-color: #31006b
+      }
+
+      th,
+      td {
+        text-align: left;
+        padding: 8px;
+        font-family: Verdana;
+      }
+
+      tr {
+        font-family: Verdana
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      #sidebar {
+        grid-column: 1;
+        grid-row: 1;
+        margin-top: 30px;
+        margin-bottom: 25px;
+        padding-top: 0;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-right: 2px;
+        border: 3px solid #d3d3d3;
+        color: #666;
+      }
+      .maincontent{
+        grid-column:2
+      }
+      #sidebartext {
+        font-family: Verdana;
+        font-size: 13px;
+        color: #31006b;
+      }
+
+      .button {
+        background-color: #31006b;
+        /* Purple */
+        border: none;
+        color: white;
+        padding: 8px 18px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 4px;
+        font-size: 13px;
+        font-family: Verdana;
+        box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1), 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+        margin-top: 12px
+      }
+
+    </style>
+    <title>The Cathode Ray Choob</title>
+  </head>
+
+  <body>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/SMPTE_Color_Bars.svg" alt="television color test" width=100% height="250" />
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#About Me">About Me</a>
+      <a href="#Theme Tunes">Theme Tunes</a>
+      <a href="#Classic Clips">Classic Clips</a>
+      <a href="#Top of the Pops">Top of the Pops</a>
+      <a href="#Classic Ads">Classic Ads</a>
+      <a href="#Music Vids">Music Vids</a>
+      <a href="#Monday Movie">Monday Movie</a>
+    </div>
+    <h1 style="font-size:36px; text-align:center; color:#31006b; font-family: Verdana">
+      The Cathode Ray Choob
+    </h1>
+    <h2 style="text-align:center; font-family: Arial Narrow; font-size:26px; color:#333333">
+      TV and Other Important Stuff
+    </h2>
+
+    <main >
+        <div class="mainContainer">
+      <div id="sidebar">
+        <h2 style="font-family: Arial Narrow; color:#666666">
+          Help The Choob!
+        </h2>
+        <p id="sidebartext">
+          If you find a video on any post that will not play, <strong>please leave a comment or email me at the address below</strong> so I can try to find a replacement. Click <a href="https://thecathoderaychoob.wordpress.com/2009/06/14/the-choob-needs-you/">here</a> for more info. Thanks, from The Choob!
+        </p>
+      </div>
+      <p>
+      </p>
+      <div id="maincontent">
+      <table style>
+        <thead>
+          <tr>
+            <th colspan="2" style="font-family: Arial Narrow; font-size: 20px">What I'm Watching Now
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Doctor Who</td>
+            <td>Series 12</td>
+          </tr>
+          <tr>
+            <td>The Walking Dead</td>
+            <td>Season 11</td>
+          </tr>
+          <tr>
+            <td>Andor</td>
+            <td>Season 1</td>
+          </tr>
+          <tr>
+            <td>Stargirl</td>
+            <td>Season 3</td>
+          </tr>
+        </tbody>
+      </table>
+      <article>
+        <h2 style="font-size:21px; font-family: Verdana; color:#003366">
+          Top of the Pops: Big Country Live at King Tut's in Glasgow
+        </h2>
+        <p>
+          Hot off the press, here are a few videos I shot during <i>Big Country</i>'s brilliant gig at King Tut’s in Glasgow last night.
+        </p>
+        <p>
+          With original members Bruce Watson, Tony Butler and Mark Brzezicki now joined by <i>The Alarms</i>'s Mike Peters on vocals – taking over from his friend, the late Stuart Adamson – (plus Bruce’s son Jamie on guitar), this is not quite the same as the original <i>Big Country</i> and never will be, given the large shoes Adamson left to fill.
+        </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VmENP_H-zlg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </article>
+      <article>
+        <h2 style="font-size:21px; font-family: Verdana; color:#003366">
+          Winter Shows Are Coming
+        </h2>
+        <p>
+          Winter is coming, and with it, new shows and some returning favorites. Which ones are you counting on to get you through the long, cold nights?
+        </p>
+        <form>
+          <input type="checkbox" id="show1" name="shows" value="Willow">
+          <label for="Willow">Willow</label><br>
+          <input type="checkbox" id="show2" name="shows" value="Succession">
+          <label for="Succession">Succession</label><br>
+          <input type="checkbox" id="show3" name="shows" value="Anne Rice's Mayfair Witches">
+          <label for="Anne Rice's Mayfair Witches">Anne Rice's Mayfair Witches</label><br>
+          <input type="checkbox" id="show4" name="shows" value="Star Trek: Picard">
+          <label for="Star Trek: Picard">Star Trek: Picard</label><br>
+          <input type="checkbox" id="show5" name="shows" value="Ahsoka">
+          <label for="Ahsoka">Ahsoka</label><br>
+          <input type="checkbox" id="show6" name="shows" value="The Mandalorian">
+          <label for="The Mandalorian">The Mandalorian</label><br>
+          <input type="checkbox" id="show7" name="shows" value="Snowpiercer">
+          <label for="Snowpiercer">Snowpiercer</label><br>
+          <input type="checkbox" id="show8" name="shows" value="The Umbrella Academy">
+          <label for="The Umbrella Academy">The Umbrella Academy</label><br>
+          <input type="submit" value="submit" class="button">
+        </form>
+      </article>
+      <p>
+      </p>
+      </div>
+    </div>
+    </main>
+    <footer style="font-size:11px; font-family: Verdana; color:#666666"><strong>The Cathode Ray Choob · News and Features about TV… and other earth-shatteringly important stuff</strong></footer>
+  </body>
+
+</html>

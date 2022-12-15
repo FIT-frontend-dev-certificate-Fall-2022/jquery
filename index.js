@@ -40,6 +40,9 @@ app.get('/mypage/javascript', (req, res) => {
     res.sendFile(__dirname + '/views/mypage/myPageJavascript.html')
 })
 
+app.get('/mypage/jQuery', (req, res) => {
+    res.sendFile(__dirname + '/views/mypage/myPageJQuery.html')
+})
 
 app.get('/mypage', (req, res) => {
     res.sendFile(__dirname + '/views/mypage/mypage.html')
